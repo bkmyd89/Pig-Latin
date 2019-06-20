@@ -9,12 +9,18 @@
       <title>Pig Latin Translator</title>
     </head>
   <body>
-    <form class="pigLatin" action="index.html" method="post">
-      <div class="inputs">
-        <label for="word">enter a word</label>
-        <input id="word" type="text">
-      </div>
-      <button type="submit" class="btn-info">enter</button>
-    </form>
+    <div class="jumbotron">
+      <form id="normalWords" action="index.html" method="post">
+        <div class="inputs">
+          <label for="word">enter a word</label>
+          <input id="word" type="text">
+        </div>
+        <br>
+        <button type="submit" class="btn-info">enter</button>
+      </form>
+      <br>
+        <div id="pigLatin">
+        </div>
+    </div>
   </body>
 </html>
